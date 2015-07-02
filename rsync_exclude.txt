@@ -1,0 +1,9 @@
+rsync_exclude.txt
+deploy.sh
+DEPLOY2JPS.txt
+.svn
+*/.svn
+protected/runtime
+protected/config/main.php
+protected/config/main-admin.php
+assets

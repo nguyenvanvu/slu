@@ -1,0 +1,75 @@
+html, body {    width: 100%;    height: 100%;}
+body {	background-color:#2E363F;    padding: 0;  margin-top:28px;}
+#logo, #registbox {    width: 45%;    margin-left: auto;    margin-right: auto;    position: relative;}
+#logo img {  margin: 0 auto;    display: block;}
+#registbox { overflow: hidden !important;    text-align: left;    position: relative; }
+#registbox form{	width:100%; background:#fff;margin: 0;	position:relative;	top:0;	left:0; }
+#registbox .control-group{ padding:20px 0;margin-bottom:0px;}
+#registbox .normal_text{ padding:15px 10px; text-align:center; font-size:14px; line-height:20px; background:#49CCED; color:#fff; }
+@media (max-width: 480px){
+#logo { width: 40%; }
+#registbox{ width:90%}
+#registbox .control-group{ padding:8px 0;  margin-bottom:0px;}
+}
+.control-label.align-left-label{
+    text-align: left;
+    width: 100px;
+}
+/* Register FrontEnd*/
+.label-padding{
+    padding-right: 20px;
+}
+#registbox  .control-group{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#registbox .col{
+    padding-top: 10px;
+}
+#registbox .col input[type="text"] ,#registbox .col input[type="password"]{
+    width: 88%;
+    border-radius: 0;
+}
+#registbox .col label:first-child {
+    width: 25%;
+}
+#registbox .col label{
+    float: left;
+    margin-right: 10px;
+}
+#registbox .col label.label-radio{
+    padding-right: 0;
+    margin-right: 20px;
+}
+#registbox .col input.span_input{
+    width: 36%;
+}
+#registbox .col input.first{
+    margin-right: 5%;
+}
+#registbox .col input[type="radio"] {
+    margin-top: 0;
+
+}
+#registbox .form-actions {	padding: 14px 20px 15px;text-align: center}
+#registbox .form-actions .pull-center { padding-right: 10px}
+
+.controls {
+    margin-left: 120px;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin-top: 0;
+}
+.controls-row [class*="span"], .row-fluid .controls-row [class*="span"] {
+    float: none;
+}
+.controls input.error{
+    border-color: #b94a48;
+}
+.controls input[type="radio"].error{
+    outline: thin dotted #b94a48;
+    outline-offset: -2px;
+}
+.control-group .control-label span.required{
+    color: #b94a48;
+}

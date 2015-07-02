@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2014, 10:12:31 AM
+    Author     : VuNguyen
+*/
+.seminar-edit-btn{
+   display: block;
+    margin:auto;
+}
+.seminar-detail-btn{
+   display: block;
+    margin:auto;
+    background:  #F8CBAD;
+}
+.serminar-interms-tr{
+	background:#F5A9BC;
+}
+.show-info-modal:hover, .show-info-modal:focus, .show-info-modal:active, .show-info-modal.active, .show-info-modal.disabled, .show-info-modal[disabled],
+/*.bt_edit:hover, .bt_edit:focus, .bt_edit:active, .bt_edit.active, .bt_edit.disabled, .bt_edit[disabled],*/
+.view-st-list:hover, .view-st-list:focus, .view-st-list:active, .view-st-list.active, .view-st-list.disabled, .view-st-list[disabled],
+/*.seminar-btn:hover, .seminar-btn:focus, .seminar-btn:active, .seminar-btn.active, .seminar-btn.disabled, .seminar-btn[disabled],*/
+.seminar-edit-btn:hover, .seminar-edit-btn:focus, .seminar-edit-btn:active, .seminar-edit-btn.active, .seminar-edit-btn.disabled, .seminar-edit-btn[disabled]
+{
+    background-color: #51a351;
+    color: #fff;
+}
+/*.bt_edit, 
+.seminar-btn, */
+.seminar-edit-btn, .view-st-list, .show-info-modal {
+    background-color: #5bb75b;
+    background-image: linear-gradient(to bottom, #62c462, #51a351);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-green1 { 
+  color: #ffffff; 
+  background-color: #007500; 
+  border-color: #004A00;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+} 
+ 
+.btn-green1:hover, 
+.btn-green1:focus, 
+.btn-green1:active, 
+.btn-green1.active, 
+.open .dropdown-toggle.btn-green1 { 
+  color: #ffffff; 
+  background-color: #004A00; 
+  border-color: #004A00; 
+} 
+ 
+.btn-green1:active, 
+.btn-green1.active, 
+.open .dropdown-toggle.btn-green1 { 
+  background-image: none; 
+} 
+ 
+.btn-green1.disabled, 
+.btn-green1[disabled], 
+fieldset[disabled] .btn-green1, 
+.btn-green1.disabled:hover, 
+.btn-green1[disabled]:hover, 
+fieldset[disabled] .btn-green1:hover, 
+.btn-green1.disabled:focus, 
+.btn-green1[disabled]:focus, 
+fieldset[disabled] .btn-green1:focus, 
+.btn-green1.disabled:active, 
+.btn-green1[disabled]:active, 
+fieldset[disabled] .btn-green1:active, 
+.btn-green1.disabled.active, 
+.btn-green1[disabled].active, 
+fieldset[disabled] .btn-green1.active { 
+  background-color: #007500; 
+  border-color: #004A00; 
+} 
+ 
+.btn-green1 .badge { 
+  color: #007500; 
+  background-color: #ffffff; 
+}
